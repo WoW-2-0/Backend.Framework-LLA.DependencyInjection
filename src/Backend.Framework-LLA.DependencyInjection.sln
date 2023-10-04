@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoFac", "AutoFac", "{2364C616-D72E-4FF6-AF5A-D3D341FAD130}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scrutor", "Scrutor", "{55DA5145-9729-4705-8E05-5FC5AF670835}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{2902FF0B-4810-4DD1-A675-2125A866DA52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lamar", "Lamar", "{34112C07-B576-411B-8950-A82927129037}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unity", "Unity", "{C534194F-8D6E-4916-9069-DF236BEC8C69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ninject", "Ninject", "{51B10AFA-C568-4986-900F-A399CE32ACBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleInjector", "SimpleInjector", "{5AF9BDB0-8CE3-43AB-B9F8-B0035D313EA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Intro", "Autofac.Intro\Autofac.Intro.csproj", "{776C2A50-B477-41D0-A9BE-17461279EDF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Di.Api.Lifetimes", "Di.Api.Lifetimes\Di.Api.Lifetimes.csproj", "{F5A18E9C-390B-4229-AAA2-B594AAA44E94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Di.Api.AntiPatterns", "Di.Api.AntiPatterns\Di.Api.AntiPatterns.csproj", "{3C9D9C29-3EA2-4914-8DAF-361A90D27410}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Di.Console", "Di.Console\Di.Console.csproj", "{0D4A64D6-2FCE-4F75-88BB-9417F0D6F452}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{776C2A50-B477-41D0-A9BE-17461279EDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776C2A50-B477-41D0-A9BE-17461279EDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776C2A50-B477-41D0-A9BE-17461279EDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776C2A50-B477-41D0-A9BE-17461279EDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A18E9C-390B-4229-AAA2-B594AAA44E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A18E9C-390B-4229-AAA2-B594AAA44E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A18E9C-390B-4229-AAA2-B594AAA44E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A18E9C-390B-4229-AAA2-B594AAA44E94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C9D9C29-3EA2-4914-8DAF-361A90D27410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C9D9C29-3EA2-4914-8DAF-361A90D27410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C9D9C29-3EA2-4914-8DAF-361A90D27410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C9D9C29-3EA2-4914-8DAF-361A90D27410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D4A64D6-2FCE-4F75-88BB-9417F0D6F452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4A64D6-2FCE-4F75-88BB-9417F0D6F452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4A64D6-2FCE-4F75-88BB-9417F0D6F452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4A64D6-2FCE-4F75-88BB-9417F0D6F452}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{776C2A50-B477-41D0-A9BE-17461279EDF0} = {2364C616-D72E-4FF6-AF5A-D3D341FAD130}
+		{F5A18E9C-390B-4229-AAA2-B594AAA44E94} = {2902FF0B-4810-4DD1-A675-2125A866DA52}
+		{3C9D9C29-3EA2-4914-8DAF-361A90D27410} = {2902FF0B-4810-4DD1-A675-2125A866DA52}
+		{0D4A64D6-2FCE-4F75-88BB-9417F0D6F452} = {2902FF0B-4810-4DD1-A675-2125A866DA52}
+	EndGlobalSection
+EndGlobal
