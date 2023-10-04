@@ -6,6 +6,6 @@ public class EmailSenderService : IEmailSenderService
 {
     public ValueTask<bool> SendEmailAsync(string email, string subject, string message)
     {
-        throw new NotImplementedException();
+        return new(true);
     }
 }

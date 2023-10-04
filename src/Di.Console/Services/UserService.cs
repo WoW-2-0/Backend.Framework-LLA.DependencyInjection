@@ -7,6 +7,6 @@ public class UserService : IUserService
 {
     public ValueTask<User> CreateAsync(User user)
     {
-        throw new NotImplementedException();
+        return new(user);
     }
 }
